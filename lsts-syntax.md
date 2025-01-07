@@ -16,6 +16,18 @@ if x { y };
 if x { y } else { z };
 ```
 
+### While
+
+```
+while condition { do-a-thing; };
+```
+
+### For
+
+```
+for x in y { do-a-thing; };
+```
+
 ### Match
 
 ```
