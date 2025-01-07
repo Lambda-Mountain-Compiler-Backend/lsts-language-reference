@@ -1,6 +1,17 @@
 
 ### Syntax Reference
 
+### Literal Values
+
+```
+true           # Boolean
+1              # Integer
+1.2            # Floating Point Integer
+"abc"          # String
+'a'            # Character
+r/a*b+c/       # Regular Expression
+```
+
 ### Function Application
 
 ```
