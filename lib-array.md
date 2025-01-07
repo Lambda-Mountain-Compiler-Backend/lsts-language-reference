@@ -51,6 +51,6 @@ If a value is already directly accessible, then `open` is a noop.
 
 Local variables have logical addresses that can be referenced with `&`.
 
-### `& :GlobalVariable+base-type -> base-type[]`
+### `& : GlobalVariable+base-type -> base-type[]`
 
 Global variables have logical addresses that can be referenced with `&`.
