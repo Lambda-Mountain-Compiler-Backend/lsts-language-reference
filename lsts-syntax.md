@@ -7,6 +7,16 @@
 f(a, b)
 ```
 
+### Array Indexing, Byte Indexing, Item Indexing
+
+```
+arr[i]       # Get one item
+arr[i:j]     # Get slice from i until j
+arr[:j]      # Get slice from start until j
+arr[i:]      # Get slice from i until end
+arr[i:-2]    # Get slice from i until 2 items before end
+```
+
 ### Struct Constructor
 
 ```
