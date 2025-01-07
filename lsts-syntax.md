@@ -18,6 +18,18 @@ r/a*b+c/       # Regular Expression
 f(a, b)
 ```
 
+### Field Access
+
+```
+a.field
+```
+
+### Method Call
+
+```
+a.method(b,c)
+```
+
 ### Array Indexing, Byte Indexing, Item Indexing
 
 ```
