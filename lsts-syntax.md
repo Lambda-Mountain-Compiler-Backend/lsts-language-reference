@@ -1,6 +1,12 @@
 
 ### Syntax Reference
 
+### Let
+
+```
+let x = 5;
+```
+
 ### If
 
 ```
