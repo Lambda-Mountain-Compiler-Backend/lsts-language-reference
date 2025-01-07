@@ -60,6 +60,18 @@ match a {
 };
 ```
 
+### Function Definition
+
+```
+let f(a: A, b: B): C = c(a, b);
+```
+
+### Method Definition
+
+```
+let .f(this: A, b: B): C = c(this, b);
+```
+
 ### Type Definition
 
 ```
