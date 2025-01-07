@@ -26,7 +26,7 @@ A { 1, 2, 3 }
 ### Sequenced Expressions
 
 ```
-do-this();
+do-this();     # The semi-colon separates expressions into an ordered sequence
 before-this();
 ```
 
