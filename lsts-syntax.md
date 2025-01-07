@@ -1,6 +1,19 @@
 
 ### Syntax Reference
 
+### Function Application
+
+```
+f(a, b)
+```
+
+### Sequenced Expressions
+
+```
+do-this();
+before-this();
+```
+
 ### Let
 
 ```
