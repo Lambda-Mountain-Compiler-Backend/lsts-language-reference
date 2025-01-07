@@ -26,6 +26,12 @@ before-this();
 let x = 5;
 ```
 
+### Variable Assignment
+
+```
+x = 6;
+```
+
 ### If
 
 ```
