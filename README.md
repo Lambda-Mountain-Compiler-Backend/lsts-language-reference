@@ -1,2 +1,3 @@
-# lsts-language-reference
-LSTS Language Reference
+# LSTS Language Reference
+
+[LSTS Syntax](/lsts-syntax)
