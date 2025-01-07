@@ -45,8 +45,7 @@ for x in y { do-a-thing; };
 
 ```
 match a {
-   lhs1 => rhs1;
-   lhs2 => rhs2;
+   lhs => rhs;
    "abc" => "def";           # match a string value "abc"
    "ab".. rest => "c";       # match a string starting with "ab"
    [1.. 2..] => 3            # this lhs will match only a two element sequence [1,2]
