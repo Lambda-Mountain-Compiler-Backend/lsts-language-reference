@@ -59,3 +59,9 @@ match a {
    A { binding=key:5 } => 4; # this will match a struct A with field "key" having value 5
 };
 ```
+
+### Type Definition
+
+```
+type AB = CaseA { x: U64 } | CaseB { y: U64 };
+```
