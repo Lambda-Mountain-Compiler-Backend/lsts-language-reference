@@ -7,6 +7,12 @@
 f(a, b)
 ```
 
+### Struct Constructor
+
+```
+A { 1, 2, 3 }
+```
+
 ### Sequenced Expressions
 
 ```
