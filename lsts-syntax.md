@@ -6,11 +6,6 @@
 ```
 if x then y;
 if x then y else z;
-```
-
-or 
-
-```
 if x { y };
 if x { y } else { z };
 ```
