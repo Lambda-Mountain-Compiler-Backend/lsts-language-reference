@@ -17,7 +17,7 @@
 
 ### `.unique : List<x> -> List<x>`
 
-### `.sorted : List<x> -> List<x>`
+### `.sort : List<x> -> List<x>`
 
 ### `print : List<x> -> Nil`
 
