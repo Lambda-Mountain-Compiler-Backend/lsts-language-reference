@@ -23,7 +23,7 @@
 
 ### `.to-string : List<x> -> String`
 
-### `.nth : (List<x>, U64) -> x`
+### `[] : (List<x>, U64) -> x`
 
 ### `== : (List<x>, List<x>) -> Bool`
 
