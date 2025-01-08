@@ -14,3 +14,9 @@
 ### `set[] : (HashtableIs<k,v>, k, v) -> HashtableIs<k,v>`
 
 ### `.lookup : (HashtableIs<k,v>, k, default: v) -> v`
+
+### `.has : (HashtableIs<k,v>, k) -> Bool`
+
+### `print : HashtableIs<k,v> -> Nil`
+
+### `.to-string : HashtableIs<k,v> -> String`
