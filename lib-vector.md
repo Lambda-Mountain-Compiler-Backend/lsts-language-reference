@@ -9,4 +9,14 @@
 
 ### `[] : (Vector<t>, U64) -> t`
 
+### `set[] : (Vector<t>, U64, t) -> Nil`
+
 ### `+ : (Vector<t>, Vector<t>) -> Vector<t>`
+
+### `.sorted : Vector<t> -> Vector<t>`
+
+### `.unique : Vector<t> -> Vector<t>`
+
+### `print : Vector<t> -> Nil`
+
+### `.to-string : Vector<t> -> String`
