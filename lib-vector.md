@@ -13,8 +13,6 @@
 
 ### `+ : (Vector<t>, Vector<t>) -> Vector<t>`
 
-### `.sorted : Vector<t> -> Vector<t>`
-
 ### `.sort : Vector<t> -> Vector<t>`
 
 ### `.unique : Vector<t> -> Vector<t>`
