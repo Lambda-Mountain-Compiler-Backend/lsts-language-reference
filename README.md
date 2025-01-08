@@ -26,8 +26,6 @@
 
 [LIB/default.lm - F64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f64)
 
-[LIB/default.lm - Buffer](https://andrew-johnson-4.github.io/lsts-language-reference/lib-buffer)
-
 [LIB/default.lm - CString](https://andrew-johnson-4.github.io/lsts-language-reference/lib-cstring)
 
 [LIB/default.lm - String](https://andrew-johnson-4.github.io/lsts-language-reference/lib-string)
