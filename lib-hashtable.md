@@ -3,6 +3,12 @@
 
 ### `.lookup : (Hashtable<k,v>, k, default: v) -> v`
 
+### `.has : (Hashtable<k,v>, k) -> Bool`
+
+### `print : Hashtable<k,v> -> Nil`
+
+### `.to-string : Hashtable<k,v> -> String`
+
 `HashtableIs` is an alternative hashtable type that uses shallow hashes and shallow equality as opposed to deep hashes and deep equality.
 
 ### `set[] : (HashtableIs<k,v>, k, v) -> HashtableIs<k,v>`
