@@ -1,16 +1,16 @@
 
-### `== : (CString, CString) -> Bool`
+### `== : (String, String) -> Bool`
 
-### `!= : (CString, CString) -> Bool`
+### `!= : (String, String) -> Bool`
 
-### `< : (CString, CString) -> Bool`
+### `< : (String, String) -> Bool`
 
-### `<= : (CString, CString) -> Bool`
+### `<= : (String, String) -> Bool`
 
-### `> : (CString, CString) -> Bool`
+### `> : (String, String) -> Bool`
 
-### `>= : (CString, CString) -> Bool`
+### `>= : (String, String) -> Bool`
 
-### `== : (CString, CString) -> Bool`
+### `== : (String, String) -> Bool`
 
-### `deep-hash : CString -> U64`
+### `deep-hash : String -> U64`
