@@ -15,6 +15,8 @@
 
 ### `.sorted : Vector<t> -> Vector<t>`
 
+### `.sort : Vector<t> -> Vector<t>`
+
 ### `.unique : Vector<t> -> Vector<t>`
 
 ### `print : Vector<t> -> Nil`
