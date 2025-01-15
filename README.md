@@ -36,6 +36,9 @@
 | ?        | [Hashtable](https://andrew-johnson-4.github.io/lsts-language-reference/lib-hashtable) |
 | ?        | [Array](https://andrew-johnson-4.github.io/lsts-language-reference/lib-array) |
 | ?        | [Regex](https://andrew-johnson-4.github.io/lsts-language-reference/lib-regex) |
+|          | |
+|          | |
+|          | |
 
 </td></tr></table>
 
