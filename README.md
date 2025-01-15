@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/andrew-johnson-4/lsts-language-reference/refs/heads/main/styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 # LSTS Language Reference
 
