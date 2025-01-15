@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 ### `true : Bool`
 
