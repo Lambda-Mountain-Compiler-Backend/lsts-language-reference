@@ -6,7 +6,8 @@
 
 ### Primitive Types
 
-<table><tr><td>
+<div class="llr-column-group">
+<div class="llr-column">
   
 | Size     | Name |
 | -------- | ---- |
@@ -23,7 +24,7 @@
 | 8        | [I64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-i64) |
 | 8        | [F64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f64) |
 
-</td><td>
+</div><div style="llr-column">
 
 | Size     | Name |
 | -------- | ---- |
@@ -40,7 +41,8 @@
 | &nbsp;   | &nbsp; |
 | &nbsp;   | &nbsp; |
 
-</td></tr></table>
+</div></div>
+
 
 ### Library Modules
 
