@@ -1,4 +1,11 @@
+/* Color Palette
+   background primary: #FBF5DD
+   inset primary: #A6CDC6
+   text primary: #16404D
+   contrast primary: #DDA853
+*/
 
-html {
-   background-color: blue;
+
+body {
+   background-color: #FBF5DD;
 }
