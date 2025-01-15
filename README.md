@@ -20,7 +20,7 @@
 
 [LIB/default.lm - I32](https://andrew-johnson-4.github.io/lsts-language-reference/lib-i32)
 
-[LIB/default.lm - F32](https://andrew-johnson-4.github.io/lsts-language-reference/lib-F32)
+[LIB/default.lm - F32](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f32)
 
 [LIB/default.lm - U64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-u64)
 
