@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 ### `== : (U32, U32) -> Bool`
 
 ### `!= : (U32, U32) -> Bool`
