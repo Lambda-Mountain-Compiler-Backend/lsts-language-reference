@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
+* [Link to LM on Github](https://github.com/andrew-johnson-4/lambda-mountain)
 * [LSTS Syntax Cheatsheet](https://andrew-johnson-4.github.io/lsts-language-reference/lsts-syntax)
 
 ### Primitive Types
