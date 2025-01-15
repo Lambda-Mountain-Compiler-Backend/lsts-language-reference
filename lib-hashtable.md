@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 ### `set[] : (Hashtable<k,v>, k, v) -> Hashtable<k,v>`
 
