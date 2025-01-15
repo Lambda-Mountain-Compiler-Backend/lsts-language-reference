@@ -6,6 +6,8 @@
 
 ### Primitive Types
 
+<table><tr><td>
+  
 | Size     | Name |
 | -------- | ---- |
 | ?        | [Sized](https://andrew-johnson-4.github.io/lsts-language-reference/lib-sized) |
@@ -20,6 +22,11 @@
 | 8        | [U64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-u64) |
 | 8        | [I64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-i64) |
 | 8        | [F64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f64) |
+
+</td><td>
+
+| Size     | Name |
+| -------- | ---- |
 | 8        | [CString](https://andrew-johnson-4.github.io/lsts-language-reference/lib-cstring) |
 | ?        | [String](https://andrew-johnson-4.github.io/lsts-language-reference/lib-string) |
 | ?        | [S](https://andrew-johnson-4.github.io/lsts-language-reference/lib-s-expression) |
@@ -29,6 +36,8 @@
 | ?        | [Hashtable](https://andrew-johnson-4.github.io/lsts-language-reference/lib-hashtable) |
 | ?        | [Array](https://andrew-johnson-4.github.io/lsts-language-reference/lib-array) |
 | ?        | [Regex](https://andrew-johnson-4.github.io/lsts-language-reference/lib-regex) |
+
+</td></tr></table>
 
 ### Library Modules
 
