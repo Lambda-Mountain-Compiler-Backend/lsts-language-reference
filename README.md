@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/andrew-johnson-4/lsts-language-reference/refs/heads/main/styles.css">
+
 # LSTS Language Reference
 
 [LSTS Syntax](https://andrew-johnson-4.github.io/lsts-language-reference/lsts-syntax)
