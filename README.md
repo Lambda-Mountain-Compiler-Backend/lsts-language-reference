@@ -1,7 +1,5 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-* [LSTS (the programming language) on Github](https://github.com/andrew-johnson-4/LSTS?tab=readme-ov-file#much-like-c)
-* [LM (the compiler infrastructure) on Github](https://github.com/andrew-johnson-4/lambda-mountain#lambda-mountain)
 * [LSTS Syntax Cheatsheet](https://andrew-johnson-4.github.io/lsts-language-reference/lsts-syntax)
 
 ### Primitive Types
@@ -25,4 +23,7 @@
 
 * [IO](https://andrew-johnson-4.github.io/lsts-language-reference/lib-io)
 
+### Github Links
 
+* [LSTS (the programming language)](https://github.com/andrew-johnson-4/LSTS?tab=readme-ov-file#much-like-c)
+* [LM (the compiler infrastructure)](https://github.com/andrew-johnson-4/lambda-mountain#lambda-mountain)
