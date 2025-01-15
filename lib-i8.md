@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 ### `== : (I8, I8) -> Bool`
 
 ### `!= : (I8, I8) -> Bool`
