@@ -1,8 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-# LSTS Language Reference
-
-[LSTS Syntax](https://andrew-johnson-4.github.io/lsts-language-reference/lsts-syntax)
+* [LSTS Syntax Cheatsheet](https://andrew-johnson-4.github.io/lsts-language-reference/lsts-syntax)
 
 ### Primitive Types
   
