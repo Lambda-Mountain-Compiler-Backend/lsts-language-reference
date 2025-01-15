@@ -22,6 +22,9 @@ tr {
    background-color: #DDA853 !important;
 }
 
-.markdown-body > :first-child::before {
-   text: "< ";
+li::before {
+   content: ">";
+   position: absolute;
+   left: 0;
+   color: green; /* Customize color */
 }
