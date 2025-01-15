@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 ### `== : (I64, I64) -> Bool`
 
 ### `!= : (I64, I64) -> Bool`
