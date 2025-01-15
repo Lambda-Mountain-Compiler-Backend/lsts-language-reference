@@ -22,13 +22,13 @@
 | 8        | [F64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f64) |
 | 8        | [CString](https://andrew-johnson-4.github.io/lsts-language-reference/lib-cstring) |
 | ?        | [String](https://andrew-johnson-4.github.io/lsts-language-reference/lib-string) |
-| ?        | [S Expression](https://andrew-johnson-4.github.io/lsts-language-reference/lib-s-expression) |
+| ?        | [S](https://andrew-johnson-4.github.io/lsts-language-reference/lib-s-expression) |
 | ?        | [Tuple](https://andrew-johnson-4.github.io/lsts-language-reference/lib-tuple) |
 | ?        | [List](https://andrew-johnson-4.github.io/lsts-language-reference/lib-list) |
 | ?        | [Vector](https://andrew-johnson-4.github.io/lsts-language-reference/lib-vector) |
 | ?        | [Hashtable](https://andrew-johnson-4.github.io/lsts-language-reference/lib-hashtable) |
 | ?        | [Array](https://andrew-johnson-4.github.io/lsts-language-reference/lib-array) |
-| ?        | [Regular Expressions](https://andrew-johnson-4.github.io/lsts-language-reference/lib-regex) |
+| ?        | [Regex](https://andrew-johnson-4.github.io/lsts-language-reference/lib-regex) |
 
 ### Library Modules
 
