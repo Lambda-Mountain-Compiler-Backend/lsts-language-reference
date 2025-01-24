@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-`USize` is a variable size integer that will be as big as a word.
+`USize` is a variable size unsized integer that will be as big as a word.
 
 ```
 ifdef SYSTEM-32-BIT (
