@@ -4,10 +4,10 @@
 
 ```
 ifdef SYSTEM-32-BIT (
-   type USize = U32;
+   type USize is U32;
 );
 
 ifdef SYSTEM-64-BIT (
-   type USize = U64;
+   type USize is U64;
 );
 ```
