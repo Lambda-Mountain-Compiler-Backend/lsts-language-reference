@@ -14,4 +14,4 @@
 
 ### `== : (CString, CString) -> Bool`
 
-### `deep-hash : CString -> U64`
+### `deep-hash : CString -> USize`
