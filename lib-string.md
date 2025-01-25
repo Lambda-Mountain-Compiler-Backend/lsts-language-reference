@@ -52,4 +52,4 @@ noop
 
 ### `.remove-suffix : (String, String) -> String`
 
-### + : (String, String) -> String`
+### `+ : (String, String) -> String`
