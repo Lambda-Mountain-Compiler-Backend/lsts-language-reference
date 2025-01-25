@@ -1,23 +1,27 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-### `set[] : (Hashtable<k,v>, k, v) -> Hashtable<k,v>`
+### `set[] : (&Hashtable<k,v>, k, v) -> Nil`
 
-### `.lookup : (Hashtable<k,v>, k, default: v) -> v`
+### `.bind : (Hashtable<k,v>, k, v) -> Hashtable<k,v>`
 
-### `.has : (Hashtable<k,v>, k) -> Bool`
+### `.lookup : (&Hashtable<k,v>, k, default: v) -> v`
 
-### `print : Hashtable<k,v> -> Nil`
+### `.has : (&Hashtable<k,v>, k) -> Bool`
 
-### `.to-string : Hashtable<k,v> -> String`
+### `print : &Hashtable<k,v> -> Nil`
+
+### `.to-string : &Hashtable<k,v> -> String`
 
 `HashtableIs` is an alternative hashtable type that uses shallow hashes and shallow equality as opposed to deep hashes and deep equality.
 
-### `set[] : (HashtableIs<k,v>, k, v) -> HashtableIs<k,v>`
+### `set[] : (&HashtableIs<k,v>, k, v) -> Nil`
 
-### `.lookup : (HashtableIs<k,v>, k, default: v) -> v`
+### `.bind : (HashtableIs<k,v>, k, v) -> HashtableIs<k,v>`
 
-### `.has : (HashtableIs<k,v>, k) -> Bool`
+### `.lookup : (&HashtableIs<k,v>, k, default: v) -> v`
 
-### `print : HashtableIs<k,v> -> Nil`
+### `.has : (&HashtableIs<k,v>, k) -> Bool`
 
-### `.to-string : HashtableIs<k,v> -> String`
+### `print : &HashtableIs<k,v> -> Nil`
+
+### `.to-string : &HashtableIs<k,v> -> String`
