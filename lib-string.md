@@ -14,7 +14,7 @@
 
 ### `== : (String, String) -> Bool`
 
-### `deep-hash : String -> U64`
+### `deep-hash : String -> USize`
 
 ### `non-zero : String -> Bool`
 
@@ -24,7 +24,7 @@
 
 ### `.length : String -> U64`
 
-### `cmp : (String, String) -> I64`
+### `cmp : (String, String) -> Ord`
 
 ### `print : String -> Nil`
 
