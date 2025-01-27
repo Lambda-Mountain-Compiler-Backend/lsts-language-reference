@@ -97,6 +97,7 @@ match a {
    [1.. 2..] => 3            # this lhs will match only a two element sequence [1,2]
    [1.. 2.. _] => 3          # this lhs will match any sequence starting with 1 and 2
    A { binding=key:5 } => 4; # this will match a struct A with field "key" having value 5
+   _ { binding=key:5 } => 4; # struct tag names are optional
    raw x => 2                # raw bindings won't automatically dereference pointers or "open" the value
 };
 ```
