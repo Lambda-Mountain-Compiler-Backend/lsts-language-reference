@@ -118,4 +118,6 @@ let .f(this: A, b: B): C = c(this, b);
 
 ```
 type AB = CaseA { x: U64 } | CaseB { y: U64 };
+type alias A = B;
+type opaque alias C = D;
 ```
