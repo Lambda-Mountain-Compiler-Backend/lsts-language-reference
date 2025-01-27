@@ -15,7 +15,7 @@
 | 4         | [U32](https://andrew-johnson-4.github.io/lsts-language-reference/lib-u32)     | &nbsp; | ?      | [Hashtable](https://andrew-johnson-4.github.io/lsts-language-reference/lib-hashtable) |
 | 4         | [I32](https://andrew-johnson-4.github.io/lsts-language-reference/lib-i32)     | &nbsp; | ?      | [Array](https://andrew-johnson-4.github.io/lsts-language-reference/lib-array) |
 | 4         | [F32](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f32)     | &nbsp; | ?      | [Regex](https://andrew-johnson-4.github.io/lsts-language-reference/lib-regex) |
-| 8         | [U64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-u64)     | &nbsp; |  | &nbsp; |
+| 8         | [U64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-u64)     | &nbsp; | ?      | [Maybe](https://andrew-johnson-4.github.io/lsts-language-reference/lib-maybe) |
 | 8         | [I64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-i64)     | &nbsp; | &nbsp; | &nbsp; |
 | 8         | [F64](https://andrew-johnson-4.github.io/lsts-language-reference/lib-f64)     | &nbsp; | &nbsp; | &nbsp; |
 | word size | [USize](https://andrew-johnson-4.github.io/lsts-language-reference/lib-usize) | &nbsp; | &nbsp; | &nbsp; |
