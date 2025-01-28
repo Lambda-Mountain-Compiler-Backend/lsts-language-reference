@@ -41,3 +41,5 @@
 ### `.contains : (List<x>, x) -> Bool`
 
 ### `.join : (List<x>, String) -> String`
+
+### `.next : List<x> -> Maybe<x>`
