@@ -21,3 +21,5 @@
 ### `print : Vector<t> -> Nil`
 
 ### `.to-string : Vector<t> -> String`
+
+### `.next : Vector<t> -> Maybe<t>`
