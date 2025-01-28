@@ -42,4 +42,4 @@
 
 ### `.join : (List<x>, String) -> String`
 
-### `.next : List<x> -> Maybe<x>`
+### `.next : List<x>[] -> Maybe<x>`
