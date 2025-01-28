@@ -22,4 +22,4 @@
 
 ### `.to-string : Vector<t> -> String`
 
-### `.next : Vector<t> -> Maybe<t>`
+### `.next : Vector<t>[] -> Maybe<t>`
