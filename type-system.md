@@ -22,7 +22,7 @@ f : Integer -> Integer
 ### System F
 
 System F adds the ability for objects to be parameterized with quantified type variables.
-In LM type variables are represented with lowercase identifiers.
+In LSTS type variables are represented with lowercase identifiers.
 
 ```
 Some : a -> Maybe<a>
