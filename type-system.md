@@ -25,7 +25,7 @@ System F adds the ability for objects to be parameterized with quantified type v
 In LM type variables are represented with lowercase identifiers.
 
 ```
-some : a -> Option<a>
+Some : a -> Maybe<a>
 ```
 
 ### System F<:
