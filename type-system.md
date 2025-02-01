@@ -71,16 +71,3 @@ Many novel type systems can be expressed as Phi Types.
 The term "Phi Type" comes from the more widely recognized Phi Functions in Single Static Assignment form.
 A Phi Function is used to merge variables coming from two separate parent code paths.
 A Phi Type is similarly used to merge types coming from two separate parent code paths.
-
-Example:
-
-$$\frac{if \quad condition \quad then \quad truecase \quad else \quad falsecase}{logically \quad merge \quad truecase \quad and \quad falsecase}$$
-
-becomes
-
-$$\frac{if \quad condition \quad then \quad truecase \quad else \quad falsecase}{φ(truecase,falsecase)}$$
-
-so only a new phi function needs to be defined.
-
-Phi types can also have state transitions decorated onto the inference graph.
-For example the `fclose` function will cause a state transition from `FileState::Open` to `FileState::Closed`.
