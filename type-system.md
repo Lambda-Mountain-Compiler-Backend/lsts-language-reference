@@ -59,8 +59,8 @@ Then, when applied, punned functions are "narrowed as necessary" to decide which
 
 Nominal Types can be associated with logical properties.
 When a Type carries a proposition, in order to soundly fulfill that proposition two things need to be independently proven:
-1) The term carries the proposition's name (for example `List::Sorted`)
-2) The name is only given to terms that satisfy the proposition's semantic conditions (`List::Sorted` lists are sorted)
+1. The term carries the proposition's name (for example `List::Sorted`)
+2. The name is only given to terms that satisfy the proposition's semantic conditions (`List::Sorted` lists are sorted)
 
 Condition 1 is already working in the type system, however condition 2 will require some significant work.
 This feature is a prerequisite for fully certified builds.
