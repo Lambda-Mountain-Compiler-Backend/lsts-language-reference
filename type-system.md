@@ -71,3 +71,6 @@ Many novel type systems can be expressed as Phi Types.
 The term "Phi Type" comes from the more widely recognized Phi Functions in Single Static Assignment form.
 A Phi Function is used to merge variables coming from two separate parent code paths.
 A Phi Type is similarly used to merge types coming from two separate parent code paths.
+
+Phi types can also have state transitions decorated onto the inference graph.
+For example the fclose function will cause a state transition from `FileState::Open` to `FileState::Closed`.
