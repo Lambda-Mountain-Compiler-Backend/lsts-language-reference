@@ -53,7 +53,7 @@ Then, when applied, punned functions are "narrowed as necessary" to decide which
 
 <img src="https://github.com/andrew-johnson-4/lsts-language-reference/blob/main/abstraction.png?raw=true">
 
-$$application \quad \frac{\Gamma \vdash f:(A \to B) + (C \to D) + (X \to Y) \quad \Gamma \vdash x:A + X \quad f(x)}{\Gamma \vdash f(x):B + Y}$$
+<img src="https://github.com/andrew-johnson-4/lsts-language-reference/blob/main/application.png?raw=true">
 
 ### Logical Propositions
 
