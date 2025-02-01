@@ -1,4 +1,6 @@
-## Lambda Calculus
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+### Lambda Calculus
 
 Lambda Calculus just has variables, functions, and function applications.
 It is a "dynamic" language without static types.
@@ -7,7 +9,7 @@ It is a "dynamic" language without static types.
 λx. x y z
 ```
 
-## Simply Typed Lambda Calculus
+### Simply Typed Lambda Calculus
 
 Types can help distinguish terms and their intended purpose.
 Each type is a simple name or an arrow.
@@ -17,7 +19,7 @@ Each type is a simple name or an arrow.
 f : Integer -> Integer
 ```
 
-## System F
+### System F
 
 System F adds the ability for objects to be parameterized with quantified type variables.
 In LM type variables are represented with lowercase identifiers.
@@ -26,7 +28,7 @@ In LM type variables are represented with lowercase identifiers.
 some : a -> Option<a>
 ```
 
-## System F<:
+### System F<:
 
 System F<: adds the ability for objects to become subtypes (<:) of a hierarchical type system.
 
@@ -44,7 +46,7 @@ In plural notation the subtyping relations can often be expanded to clarify a bi
 (x : X+Y) <: Y  # yes
 ```
 
-## System F<: with Specialization
+### System F<: with Specialization
 
 Specialization adds the ability to pun (overload) functions onto the same identifier.
 Then, when applied, punned functions are "narrowed as necessary" to decide which function to apply.
@@ -53,7 +55,7 @@ $$abstraction \quad \frac{\Gamma \vdash a:A \quad \Gamma \vdash b:B \quad \Gamma
 
 $$application \quad \frac{\Gamma \vdash f:(A \to B) + (C \to D) + (X \to Y) \quad \Gamma \vdash x:A + X \quad f(x)}{\Gamma \vdash f(x):B + Y}$$
 
-## Logical Propositions
+### Logical Propositions
 
 Nominal Types can be associated with logical properties.
 When a Type carries a proposition, in order to soundly fulfill that proposition two things need to be independently proven:
@@ -63,7 +65,7 @@ When a Type carries a proposition, in order to soundly fulfill that proposition 
 Condition 1 is already working in the type system, however condition 2 will require some significant work.
 This feature is a prerequisite for fully certified builds.
 
-## Phi Types
+### Phi Types
 
 Many novel type systems can be expressed as Phi Types.
 The term "Phi Type" comes from the more widely recognized Phi Functions in Single Static Assignment form.
