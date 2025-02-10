@@ -31,7 +31,7 @@ a.field
 a.method(b,c)
 ```
 
-### Array Indexing, Byte Indexing, Item Indexing
+### Array Indexing, Byte Indexing, Slice Indexing
 
 ```
 arr[i]       # Get one item
