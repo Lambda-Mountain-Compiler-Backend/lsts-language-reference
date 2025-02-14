@@ -7,9 +7,7 @@ type S = SNil
        | SPointer { ?[] }
 ```
 
-### `print : S -> Nil`
-
-### `to-string : S -> String`
+### `.into : (S, Type<String>) -> String`
 
 ### `== : (S, S) -> Bool`
 
