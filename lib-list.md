@@ -20,9 +20,9 @@
 
 ### `.sort : List<x> -> List<x>`
 
-### `print : List<x> -> Nil`
+### `.into : (Vector<t>, Type<String>) -> String`
 
-### `.to-string : List<x> -> String`
+### `.into : (List<t>, Type<Vector<t>>) -> Vector<t>`
 
 ### `[] : (List<x>, U64) -> x`
 
