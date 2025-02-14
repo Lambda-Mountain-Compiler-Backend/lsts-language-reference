@@ -32,6 +32,4 @@
 
 ### `min : (I64, I64) -> I64`
 
-### `print : I64 -> Nil`
-
 ### `.into : (I64, Type<String>) -> String`
