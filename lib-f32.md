@@ -34,4 +34,4 @@
 
 ### `print : F32 -> Nil`
 
-### `.to-string : F32 -> String`
+### `.into : Type<String> -> String`
