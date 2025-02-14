@@ -32,6 +32,4 @@
 
 ### `min : (F64, F64) -> F64`
 
-### `print : F64 -> Nil`
-
 ### `.into : (F64, Type<String>) -> String`
