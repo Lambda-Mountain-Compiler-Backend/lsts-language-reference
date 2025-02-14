@@ -32,6 +32,4 @@
 
 ### `min : (I8, I8) -> I8`
 
-### `print : I8 -> Nil`
-
 ### `.into : (I8, Type<String>) -> String`
