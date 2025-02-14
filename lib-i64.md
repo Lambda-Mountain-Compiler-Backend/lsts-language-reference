@@ -34,4 +34,4 @@
 
 ### `print : I64 -> Nil`
 
-### `.to-string : I64 -> String`
+### `.into : (I64, Type<String>) -> String`
