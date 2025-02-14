@@ -32,6 +32,4 @@
 
 ### `min : (U64, U64) -> U64`
 
-### `print : U64 -> Nil`
-
-### `.to-string : U64 -> String`
+### `.into : (U64, Type<String>) -> String`
