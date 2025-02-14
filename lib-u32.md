@@ -32,6 +32,4 @@
 
 ### `min : (U32, U32) -> U32`
 
-### `print : U32 -> Nil`
-
-### `.to-string : U32 -> String`
+### `.into : (U32, Type<String>) -> String`
