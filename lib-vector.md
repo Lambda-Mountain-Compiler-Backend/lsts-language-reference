@@ -18,8 +18,6 @@
 
 ### `.unique : Vector<t> -> Vector<t>`
 
-### `print : Vector<t> -> Nil`
-
-### `.to-string : Vector<t> -> String`
+### `.into : (Vector<t>, Type<String>) -> String`
 
 ### `.next : Vector<t>[] -> Maybe<t>`
