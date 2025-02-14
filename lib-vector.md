@@ -6,7 +6,7 @@
 
 ### `.pop : Vector<t> -> t`
 
-### `.to-vector : List<t> -> Vector<t>`
+### `.into : (Vector<t>, Type<List<t>>) -> List<t>`
 
 ### `[] : (Vector<t>, U64) -> t`
 
