@@ -32,6 +32,4 @@
 
 ### `min : (F32, F32) -> F32`
 
-### `print : F32 -> Nil`
-
 ### `.into : (F32, Type<String>) -> String`
