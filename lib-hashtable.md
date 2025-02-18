@@ -8,9 +8,7 @@
 
 ### `.has : (&Hashtable<k,v>, k) -> Bool`
 
-### `print : &Hashtable<k,v> -> Nil`
-
-### `.to-string : &Hashtable<k,v> -> String`
+### `.into : (&Hashtable<k,v>, Type<String>) -> String`
 
 `HashtableIs` is an alternative hashtable type that uses shallow hashes and shallow equality as opposed to deep hashes and deep equality.
 
@@ -22,6 +20,4 @@
 
 ### `.has : (&HashtableIs<k,v>, k) -> Bool`
 
-### `print : &HashtableIs<k,v> -> Nil`
-
-### `.to-string : &HashtableIs<k,v> -> String`
+### `.into : (&HashtableIs<k,v>, Type<String>) -> String`
