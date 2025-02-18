@@ -18,31 +18,27 @@
 
 ### `non-zero : String -> Bool`
 
-### `intern : CString -> String`
+### `.into : (String, Type<CString>) -> CString`
 
-### `untern : String -> CString`
+### `.into : (String, Type<String>) -> String`
+
+noop
 
 ### `.length : String -> U64`
 
 ### `cmp : (String, String) -> Ord`
 
-### `print : String -> Nil`
+### `[] : (String, USize) -> U8`
 
-### `.to-string : String -> String`
+### `[] : (String, ISize) -> U8`
 
-noop
+### `[:] : (String, USize, USize) -> String`
 
-### `[] : (String, U64) -> U8`
+### `[:] : (String, USize, ISize) -> String`
 
-### `[] : (String, I64) -> U8`
+### `[:] : (String, ISize, USize) -> String`
 
-### `[:] : (String, U64, U64) -> String`
-
-### `[:] : (String, U64, I64) -> String`
-
-### `[:] : (String, I64, U64) -> String`
-
-### `[:] : (String, I64, I64) -> String`
+### `[:] : (String, ISize, ISize) -> String`
 
 ### `.has-prefix : (String, String) -> Bool`
 
