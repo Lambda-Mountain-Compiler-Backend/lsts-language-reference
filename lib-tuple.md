@@ -16,7 +16,7 @@ type Tuple<x,y> = Tuple { first: x, second: y };
 
 ### `>= : (Tuple<x,y>, Tuple<x,y>) -> Bool`
 
-### `deep-hash : Tuple<x,y> -> U64`
+### `deep-hash : Tuple<x,y> -> USize`
 
 ### `.into : (Tuple<x,y>, Type<String>) -> String`
 
@@ -36,7 +36,7 @@ type Tuple<x,y,z> = Tuple { first: x, second: y, third: z };
 
 ### `>= : (Tuple<x,y,z>, Tuple<x,y,z>) -> Bool`
 
-### `deep-hash : Tuple<x,y,z> -> U64`
+### `deep-hash : Tuple<x,y,z> -> USize`
 
 ### `.into : (Tuple<x,y,z>, Type<String>) -> String`
 
