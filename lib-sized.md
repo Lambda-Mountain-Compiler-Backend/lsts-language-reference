@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-### `hash : Sized<size> -> Bool`
+### `hash : Sized<size> -> USize`
 
 The hash is not a cryptographic hash.
 
