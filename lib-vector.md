@@ -20,4 +20,4 @@
 
 ### `.into : (Vector<t>, Type<String>) -> String`
 
-### `.next : Vector<t>[] -> Maybe<t>`
+### `.next : &Vector<t> -> Maybe<t>`
