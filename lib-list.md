@@ -4,13 +4,11 @@
 
 ### `head : List<x> -> x`
 
-### `.has-head : List<x> -> Bool`
-
 ### `tail : List<x> -> List<x>`
 
 ### `+ : (List<x>, List<x>) -> List<x>`
 
-### `.length : List<x> -> U64`
+### `.length : List<x> -> USize`
 
 ### `.reverse : List<x> -> List<x>`
 
@@ -24,7 +22,7 @@
 
 ### `.into : (List<t>, Type<Vector<t>>) -> Vector<t>`
 
-### `[] : (List<x>, U64) -> x`
+### `[] : (List<x>, USize) -> x`
 
 ### `== : (List<x>, List<x>) -> Bool`
 
@@ -42,4 +40,4 @@
 
 ### `.join : (List<x>, String) -> String`
 
-### `.next : List<x>[] -> Maybe<x>`
+### `.next : &List<x> -> Maybe<x>`
