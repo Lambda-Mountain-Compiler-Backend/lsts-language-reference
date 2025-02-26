@@ -10,6 +10,8 @@
 
 ### `.into : (&Hashtable<k,v>, Type<String>) -> String`
 
+### `.next : &Hashtable<k,v> -> Maybe<(k,v)>`
+
 `HashtableIs` is an alternative hashtable type that uses shallow hashes and shallow equality as opposed to deep hashes and deep equality.
 
 ### `set[] : (&HashtableIs<k,v>, k, v) -> Nil`
@@ -21,3 +23,5 @@
 ### `.has : (&HashtableIs<k,v>, k) -> Bool`
 
 ### `.into : (&HashtableIs<k,v>, Type<String>) -> String`
+
+
