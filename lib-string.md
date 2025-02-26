@@ -24,7 +24,7 @@
 
 noop
 
-### `.length : String -> U64`
+### `.length : String -> USize`
 
 ### `cmp : (String, String) -> Ord`
 
