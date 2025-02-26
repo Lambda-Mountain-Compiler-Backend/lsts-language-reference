@@ -2,9 +2,9 @@
 
 ### `mk-vector : (Type<t>, capacity: U64) -> Vector<t>`
 
-### `.push : (Vector<t>, t) -> Vector<t>`
+### `.push : (Into<&Vector<t>>, t) -> Nil`
 
-### `.pop : Vector<t> -> t`
+### `.pop : Into<&Vector<t>> -> t`
 
 ### `.into : (Vector<t>, Type<List<t>>) -> List<t>`
 
