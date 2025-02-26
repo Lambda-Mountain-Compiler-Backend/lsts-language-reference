@@ -1,46 +1,46 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-### `[] : (base-type[], U64) -> base-type`
+### `[] : (&base-type, U64) -> base-type`
 
-### `set[] : (base-type[], U64, base-type) -> base-type`
+### `set[] : (&base-type, U64, base-type) -> base-type`
 
-### `+ : (base-type[], U64) -> base-type[]`
-
-Pointer arithmetic.
-
-### `+ : (base-type[], I64) -> base-type[]`
+### `+ : (&base-type, USize) -> &base-type`
 
 Pointer arithmetic.
 
-### `== : (base-type[], base-type[]) -> Bool`
+### `+ : (&base-type, ISize) -> &base-type`
+
+Pointer arithmetic.
+
+### `== : (&base-type, &base-type) -> Bool`
 
 Pointers are have linear addresses.
 
-### `!= : (base-type[], base-type[]) -> Bool`
+### `!= : (&base-type, &base-type) -> Bool`
 
 Pointers are have linear addresses.
 
-### `< : (base-type[], base-type[]) -> Bool`
+### `< : (&base-type, &base-type) -> Bool`
 
 Pointers are have linear addresses.
 
-### `<= : (base-type[], base-type[]) -> Bool`
+### `<= : (&base-type, &base-type) -> Bool`
 
 Pointers are have linear addresses.
 
-### `> : (base-type[], base-type[]) -> Bool`
+### `> : (&base-type, &base-type) -> Bool`
 
 Pointers are have linear addresses.
 
-### `>= : (base-type[], base-type[]) -> Bool`
+### `>= : (&base-type, &base-type) -> Bool`
 
 Pointers are have linear addresses.
 
-### `close : base-type -> base-type[]`
+### `close : base-type -> &base-type`
 
 `close` tries to seal a value into a new indirect memory region.
 
-### `open : base-type[] -> base-type`
+### `open : &base-type -> base-type`
 
 `open` tries to open a value from an indirect memory region.
 
@@ -48,10 +48,12 @@ Pointers are have linear addresses.
 
 If a value is already directly accessible, then `open` is a noop.
 
-### `& : LocalVariable+base-type -> base-type[]`
+### `& : LocalVariable+base-type -> &base-type`
 
 Local variables have logical addresses that can be referenced with `&`.
 
-### `& : GlobalVariable+base-type -> base-type[]`
+### `& : GlobalVariable+base-type -> &base-type`
 
 Global variables have logical addresses that can be referenced with `&`.
+
+### `.into : (x,Type<&x>) -> &x`
