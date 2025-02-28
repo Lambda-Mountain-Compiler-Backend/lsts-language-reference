@@ -21,6 +21,9 @@ pre, td {
 
 pre {
    padding: 20px !important;
+}
+
+code, pre {
    font-family: source-code-pro, Menlo, Monaco, "Courier New", Courier, monospace !important;
 }
 
