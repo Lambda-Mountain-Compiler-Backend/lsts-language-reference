@@ -20,6 +20,7 @@ pre, td {
 
 pre {
    padding: 20px !important;
+   font-family: source-code-pro, Menlo, Monaco, "Courier New", Courier, monospace;
 }
 
 tr {
