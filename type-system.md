@@ -52,12 +52,13 @@ Specialization adds the ability to pun (overload) functions onto the same identi
 Then, when applied, punned functions are "narrowed as necessary" to decide which function to apply.
 
 <div style="background-color: #A6CDC6 !important;">
-$$application \quad \frac{\Gamma\vdash a:A \quad \Gamma\vdash b:B \quad \Gamma\vdash x:X \quad \Gamma\vdash y:Y \quad \lambda \langle a.b \rangle\langle x.y \rangle}{\Gamma\vdash\lambda \langle a.b \rangle\langle x.y \rangle : A\to B \space + \space X\to Y}$$
+$$abstraction \quad \frac{\Gamma\vdash a:A \quad \Gamma\vdash b:B \quad \Gamma\vdash x:X \quad \Gamma\vdash y:Y \quad \lambda \langle a.b \rangle\langle x.y \rangle}{\Gamma\vdash\lambda \langle a.b \rangle\langle x.y \rangle : A\to B \space + \space X\to Y}$$
 </div>
 
-<img src="https://github.com/andrew-johnson-4/lsts-language-reference/blob/main/abstraction.png?raw=true">
+<div style="background-color: #A6CDC6 !important;">
+$$application \quad \frac{\Gamma\vdash f : A\to B \space + C\to D \space + \space X\to Y \quad \Gamma\vdash x:A\space + \space C \quad f(x)}{\Gamma\vdash f(x):B\space + \space D}$$
+</div>
 
-<img src="https://github.com/andrew-johnson-4/lsts-language-reference/blob/main/application.png?raw=true">
 
 ### Logical Propositions
 
