@@ -7,11 +7,12 @@
 
 
 body {
-   background-color: #FBF5DD;
+   background-color: #FBF5DD !important;
+   font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif !important;
 }
 
 body, a, p, h1, h2, h3, h4, h5, h6 {
-   color: #16404D;
+   color: #16404D !important;
 }
 
 pre, td {
