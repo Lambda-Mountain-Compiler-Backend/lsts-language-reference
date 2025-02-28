@@ -51,7 +51,9 @@ In plural notation the subtyping relations can often be expanded to clarify a bi
 Specialization adds the ability to pun (overload) functions onto the same identifier.
 Then, when applied, punned functions are "narrowed as necessary" to decide which function to apply.
 
+<div style="background-color: #A6CDC6 !important;">
 $$application \quad \frac{\Gamma\vdash a:A \quad \Gamma\vdash b:B \quad \Gamma\vdash x:X \quad \Gamma\vdash y:Y \quad \lambda \langle a.b \rangle\langle x.y \rangle}{\Gamma\vdash\lambda \langle a.b \rangle\langle x.y \rangle : A\to B \space + \space X\to Y}$$
+</div>
 
 <img src="https://github.com/andrew-johnson-4/lsts-language-reference/blob/main/abstraction.png?raw=true">
 
