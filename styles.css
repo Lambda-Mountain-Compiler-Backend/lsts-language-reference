@@ -18,6 +18,10 @@ pre, td {
    background-color: #A6CDC6 !important;
 }
 
+pre {
+   padding: 20px !important;
+}
+
 tr {
    background-color: #DDA853 !important;
 }
