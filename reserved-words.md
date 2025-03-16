@@ -1,5 +1,7 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
+
+### Reserved Words
 * type
 * let
 * if
@@ -11,3 +13,7 @@
 * implements
 * opaque
 * alias
+
+### Reserved Types
+* C-FFI
+* FFI
