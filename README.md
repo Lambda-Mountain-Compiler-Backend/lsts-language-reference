@@ -2,6 +2,7 @@
 
 * [Syntax Cheatsheet](https://andrew-johnson-4.github.io/lsts-language-reference/lsts-syntax)
 * [Type System Overview](https://andrew-johnson-4.github.io/lsts-language-reference/type-system)
+* [Reserved Words and Reserved Types](https://andrew-johnson-4.github.io/lsts-language-reference/reserved-words)
 
 ### Primitive Types
   
