@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
+Variables can still be named as reserved words with `$"name"` syntax.
 
 ### Reserved Words
 * type
@@ -13,6 +14,7 @@
 * implements
 * opaque
 * alias
+* import
 
 ### Reserved Types
 * C-FFI
