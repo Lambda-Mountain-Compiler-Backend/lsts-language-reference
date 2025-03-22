@@ -25,6 +25,7 @@ Variables can still be named as reserved words with `$"name"` syntax.
 * bitsizeof
 * alignof
 * prop
+* do
 
 ### Reserved Types
 * C-FFI
