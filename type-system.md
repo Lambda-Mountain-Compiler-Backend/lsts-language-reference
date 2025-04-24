@@ -70,7 +70,7 @@ However, in standard subtyping relations, the parametric version is the subtype.
 This is because `x -> x` can become a `A -> A`, but `A -> A` cannot become a `x -> x`.
 So something needs to change.
 
-The core problem here, is that specialization asks for covariance in the argument type, not contravariance like usual.
+The core problem here is that specialization asks for covariance in the argument type, not contravariance like usual.
 The reason for this is linguistic, not mathematical.
 When we say `f(x)` is a "function application with specialization", we mean that  `f is informed by x`.
 We do not mean simply `f of x`.
