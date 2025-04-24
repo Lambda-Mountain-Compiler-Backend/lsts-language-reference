@@ -59,9 +59,9 @@ $$abstraction \quad \frac{\Gamma\vdash a:A \quad \Gamma\vdash b:B \quad \Gamma\v
 $$application \quad \frac{\Gamma\vdash f : A\to B \space + C\to D \space + \space X\to Y \quad \Gamma\vdash x:A\space + \space C \quad f(x)}{\Gamma\vdash f(x):B\space + \space D}$$
 </div>
 
-### Specialization vs Standard Unification
+### Specialization vs Subtyping
 
-There is a slight distinction made between standard unification and specialization.
+There is a slight distinction made between subtyping and specialization.
 We say that specialization chooses "the most specific" candidate, but what does that really mean?
 We might think that specialization is just the deepest subtype, but that would be wrong.
 
