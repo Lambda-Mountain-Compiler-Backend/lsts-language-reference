@@ -63,7 +63,7 @@ $$application \quad \frac{\Gamma\vdash f : A\to B \space + C\to D \space + \spac
 
 There is a slight distinction made between standard unification and specialization.
 We say that specialization chooses "the most specific" candidate, but what does that really mean?
-We might think that this is just deepest subtype, but that would be wrong.
+We might think that specialization is just the deepest subtype, but that would be wrong.
 
 When we have two candidates such as `x -> x` and it's specialized version `A -> A`, we obviously want to choose the specialized version.
 However, in standard subtyping relations, the parametric version is the subtype.
