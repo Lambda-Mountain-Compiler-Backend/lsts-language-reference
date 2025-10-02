@@ -18,7 +18,7 @@
 | 4         | [I32](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-i32)     | &nbsp; | ?      | [Array](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-array) |
 | 4         | [F32](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-f32)     | &nbsp; | ?      | [Regex](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-regex) |
 | 8         | [U64](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-u64)     | &nbsp; | ?      | [Maybe](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-maybe) |
-| 8         | [I64](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-i64)     | &nbsp; | &nbsp; | &nbsp; |
+| 8         | [I64](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-i64)     | &nbsp; | &nbsp; | [Arrow](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-arrow) |
 | 8         | [F64](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-f64)     | &nbsp; | &nbsp; | &nbsp; |
 | word size | [USize](https://lambda-mountain-compiler-backend.github.io/lsts-language-reference/lib-usize) | &nbsp; | &nbsp; | &nbsp; |
 
