@@ -2,14 +2,14 @@
 
 An `Arrow` is a first-order function value that can be expressed as a plain C function.
 
-### `.domain : (Type<a -> b>) -> a`
+### `.domain : (Type<a -> b>) -> Type<a>`
 
-### `.range : (Type<a -> b>) -> b`
+### `.range : (Type<a -> b>) -> Type<b>`
 
-### `.domain : (Type<(a -> b)[]>) -> a`
+### `.domain : (Type<(a -> b)[]>) -> Type<a>`
 
-### `.range : (Type<(a -> b)[]>) -> b`
+### `.range : (Type<(a -> b)[]>) -> Type<b>`
 
-### `.domain : (Type<(a -> b)[][]>) -> a`
+### `.domain : (Type<(a -> b)[][]>) -> Type<a>`
 
-### `.range : (Type<(a -> b)[][]>) -> b`
+### `.range : (Type<(a -> b)[][]>) -> Type<b>`
